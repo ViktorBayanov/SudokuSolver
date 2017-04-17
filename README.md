@@ -4,7 +4,7 @@ This project solves sudoku puzzles. Input grid of sudoku is reduced to conjuncti
 In order to link and run the project You need to write "make" in terminal and then "./sudoku input_file", where input_file is the name of file containing a sudoku puzzle. Input file must contain grid of sudoku in the following format: 
 
 
-7 0 8     0 0 6     3 0 0 
+7 0 8   /t  0 0 6     3 0 0 
 
 0 0 0     0 0 0    9 0 8
 
