@@ -5,9 +5,7 @@ In order to link and run the project You need to write "make" in terminal and th
 
 
 7 0 8 &nbsp; 0 0 6 &nbsp; 3 0 0 
-
 0 0 0 &nbsp; 0 0 0 &nbsp; 9 0 8
-
 0 0 3 &nbsp; 0 0 0 &nbsp; 4 0 7
 
 0 0 7 &nbsp; 0 6 0 &nbsp; 0 9 2
