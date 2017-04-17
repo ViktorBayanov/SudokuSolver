@@ -22,4 +22,4 @@ In order to assemble and run the project need to write "make" in terminal and th
 
 0 0 1   0 9 0   0 8 0
 
-where zero denotes not filled cells.
+where zero denotes not filled cells. The file "sudoku.txt" contains examples of sudoku. It can also be used as input file.
