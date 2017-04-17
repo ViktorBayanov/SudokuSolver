@@ -1,14 +1,14 @@
 # SudokuSolver
-This project solve the sudoku puzzle. Input grid of sudoku is reduced to conjunctive normal form(cnf). This cnf is solved by DPLL algorithm for Boolean Satisfiability Problem. Then empty cells of the grid are filled using the solution for the cnf. At the end the grid is showed.
+This project solves sudoku puzzles. Input grid of sudoku is reduced to conjunctive normal form (CNF). This CNF is solved by DPLL algorithm for Boolean Satisfiability Problem. Then empty cells of the grid are filled using the solution of the CNF. At the end the grid is shown.
 
-In order to assemble and run the project need to write "make" in terminal and then "./sudoku name of input file". In input file must contains grid of sudoku in next format: 
+In order to link and run the project You need to write "make" in terminal and then "./sudoku input_file", where input_file is the name of file containing a sudoku puzzle. Input file must contain grid of sudoku in the following format: 
 
 
-7 0 8   0 0 6   3 0 0 
+7 0 8     0 0 6     3 0 0 
 
-0 0 0   0 0 0   9 0 8
+0 0 0     0 0 0    9 0 8
 
-0 0 3   0 0 0   4 0 7
+0 0 3     0 0 0      4 0 7
 
 0 0 7   0 6 0   0 9 2
 
