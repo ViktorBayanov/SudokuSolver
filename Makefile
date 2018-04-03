@@ -3,12 +3,12 @@ CFLAGS=-std=c++14 -c
 
 all: sudoku
 
-sudoku: SatSolver.o cnf.o solver.o sudoku.o
-	$(CC) SatSolver.o cnf.o solver.o sudoku.o -o sudoku
+sudoku: main.o cnf.o solver.o sudoku.o
+	$(CC) main.o cnf.o solver.o sudoku.o -o sudoku
 
 
-SatSolver.o: SatSolver.cpp
-	$(CC) $(CFLAGS) SatSolver.cpp
+main.o: main.cpp
+	$(CC) $(CFLAGS) main.cpp
 
 cnf.o: cnf.cpp
 	$(CC) $(CFLAGS) cnf.cpp
